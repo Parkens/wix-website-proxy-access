@@ -23,6 +23,10 @@ __pycache__/
 .terraform/
 crash.log
 
+# Monitoring
+prometheus_data/
+grafana_data/
+
 # k8s
 *.out
 
