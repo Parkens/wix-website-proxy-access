@@ -42,6 +42,14 @@ Thumbs.db
 docker-compose.override.yml
 docker-compose.local.yml
 
+# --- Python virtualenv ---
+venv/
+.env/
+.venv/
+
+# --- CI/CD cache ---
+.cache/
+
 # --- Netlify / Node ---
 .netlify/
 .env.local
