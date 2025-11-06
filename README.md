@@ -59,4 +59,4 @@ sre/                    # Плейсхолдеры для отработки SRE
 - IaC (Terraform), CI/CD (GitHub Actions), Monitoring (Prometheus/Grafana), Cloud, SRE-практики.
 
 ## Лицензия
-MIT (или другая по необходимости).
+MIT.
