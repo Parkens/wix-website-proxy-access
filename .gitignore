@@ -1,0 +1,27 @@
+# dotenv
+.env
+.env.*
+
+# logs
+*.log
+logs/
+**/logs/
+
+# node/python artifacts
+node_modules/
+dist/
+build/
+__pycache__/
+
+# docker
+**/.DS_Store
+*.tar
+
+# terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# k8s
+*.out

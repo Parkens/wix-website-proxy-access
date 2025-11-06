@@ -1,0 +1,7 @@
+[build]
+  command = "echo 'Edge proxy for Wix via Netlify'"
+  publish = "public"
+
+[[edge_functions]]
+path = "/*"
+function = "proxy"

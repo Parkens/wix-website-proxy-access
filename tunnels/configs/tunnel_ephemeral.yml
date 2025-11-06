@@ -1,0 +1,10 @@
+# Временной туннель cloudflared tunnel
+# Пример комманды запуска:
+# cloudflared tunnel --config ./tunnels/configs/tunnel_ephemeral.yml run
+
+url: http://localhost:8080
+protocol: http2
+edge-ip-version: 4
+no-autoupdate: true
+logfile: ./tunnels/logs/tunnel_ephemeral.log
+loglevel: info

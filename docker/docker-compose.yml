@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  ters-proxy:
+    build:
+      context: ./nginx
+    image: ters-proxy:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
